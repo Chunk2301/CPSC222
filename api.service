@@ -1,0 +1,11 @@
+[Unit]
+
+Description = The script used for users and groups for Python Api
+
+[Serivce]
+
+ExecStart = /usr/bin/python3 /home/vboxuser/CPSC222/api.py
+
+[Install]
+
+WantedBy = default.target
